@@ -1,0 +1,59 @@
+
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container1, flex-container2, flex-container3, flex-container4, flex-container5, div {
+    display: flex;
+    background: slategray;
+    border: 1px solid;
+    justify-content:space-between;
+    margin: 0%;
+    
+  }
+
+  .flex-container1 div{
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+   
+  }
+
+  .flex-container2 div{
+    height: 150px;
+    width: 300px;
+    
+   
+  }
+  .flex-container3 div{
+    max-height: 200px;
+    max-width: 200px;
+    flex-direction: column;
+
+ 
+  }
+  .flex-container4 div{
+    height: auto;
+    width: auto;
+ 
+  }
+  .flex-container5 div{
+    height: 30px;
+ 
+  }
+.flex-container3 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.flex-container3 p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    object-position: bottom;
+}
+
+.flex-container4 p {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    text-align: center;
+ 
+}
