@@ -2,38 +2,47 @@
   /* this selector selects all divs inside of .flex-container */
   .flex-container1, flex-container2, flex-container3, flex-container4, flex-container5, div {
     display: flex;
-    background: slategray;
-    border: 1px solid;
+    background: darkolivegreen;
+    border: 1px solid black;
     justify-content:space-between;
     margin: 0%;
+    color: blanchedalmond;
+    flex-shrink: 0;
+    overflow:hidden;
     
   }
 
   .flex-container1 div{
     height: 30px;
     width: 120px;
-    background-color: black;
+    background-color: darkgreen;
     color: aliceblue;
     text-align: center;
+    margin: 10px;
    
   }
 
   .flex-container2 div{
     height: 150px;
     width: 300px;
-    
+    margin: 10px;
+    background-color: darkblue
    
   }
   .flex-container3 div{
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 300px;
+    max-width: 300px;
     flex-direction: column;
+    margin:20px;
+    background-color: darkgreen;
 
  
   }
   .flex-container4 div{
     height: auto;
     width: auto;
+    flex-shrink: 100;
+   
  
   }
   .flex-container5 div{
@@ -44,16 +53,27 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    margin: 20px
+   
 }
 .flex-container3 p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     object-position: bottom;
+    padding: 10px;
 }
 
 .flex-container4 p {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    text-align: center;
+    padding: 30px; 
+    margin: 20px;
+    overflow-wrap:normal;
+  
+    
  
+}
+
+.flex-container4 ul {
+  
 }
