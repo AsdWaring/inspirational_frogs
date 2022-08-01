@@ -5,7 +5,7 @@
     background-color: black
 }
 
-li, a, button {
+li, a, h1, button {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -57,3 +57,14 @@ button:hover {
 .logo {
     height: 30px
 }
+
+intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    flex-wrap: nowrap;
+}
+
+
+
