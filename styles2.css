@@ -57,13 +57,20 @@ button:hover {
 .logo {
     height: 30px
 }
-
 intro {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding: 30px 10%;
     flex-wrap: nowrap;
+}
+intro_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 30px 10%;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 
