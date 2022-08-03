@@ -13,7 +13,7 @@ li, a, h1, button {
     text-decoration: none;
 }
 
-header {
+nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -33,13 +33,15 @@ header {
     padding: 0px 20px;
 }
 
-.nav_links li a {
+.nav_links li a ul{
     transition: all 0.3% ease 0s;
+    color:whitesmoke;
+    background-color: black;
 
 }
 
 .nav_links li a:hover {
-    color:lightblue
+    color:lightblue;
 }
 
 button {
@@ -75,23 +77,24 @@ intro_column {
 
 }
 
-intro img {
+.intro_column img {
     align-items: right;
 }
 
-intro li {
+.intro_column li {
     list-style: none;
 }
 
-intro h1 {
+.intro_column h1 {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-intro a {
+.intro_column a {
     font-size: 10px;
     margin-bottom: 30px;
     color: grey;
+    background-color: black;
 }
 intro button {
     margin-top: 30px;
@@ -103,27 +106,16 @@ facts {
     length: 300px;
     padding: 100px 10%;
     justify-content: space-evenly;
-    margin:25px;
-    background-color: green;
- 
-    
+    margin:25px;  
+    background-color: beige;
 }
 
-facts img {
-   
+facts img { 
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
 }
 
-facts li {
-    list-style: none;
-    background-color: green;
-    color: black;
-    
-  
-
-}
 
 facts ul {
     display: flex;
@@ -131,6 +123,16 @@ facts ul {
     flex-direction: column;
     max-height: 125px;
     max-width: 125px;
-  
 }
 
+.fact_blocks a {
+    color: black;
+    background-color: beige;
+}
+
+
+.fact_blocks li {
+    color: black;
+    background-color: beige;
+    list-style: none;
+}
