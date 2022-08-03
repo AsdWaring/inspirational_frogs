@@ -13,6 +13,20 @@ li, a, h1, button {
     text-decoration: none;
 }
 
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3% ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+/* nav */
 nav {
     display:flex;
     justify-content: space-between;
@@ -44,21 +58,11 @@ nav {
     color:lightblue;
 }
 
-button {
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border: none;
-    border-radius: 50px;
-    cursor:pointer;
-    transition: all 0.3% ease 0s;
-}
-
-button:hover {
-    background-color: rgba(0,136,169,0.8);
-}
 .logo {
     height: 30px
 }
+
+/*intro */
 intro {
     display: flex;
     justify-content: space-between;
@@ -100,6 +104,8 @@ intro button {
     margin-top: 30px;
 }
 
+
+/*facts*/
 facts {
     display: flex;
     height: 300px;
@@ -124,15 +130,34 @@ facts ul {
     max-height: 125px;
     max-width: 125px;
 }
-
+/* Should be away to combine these two elements
+for simpler code?*/
 .fact_blocks a {
     color: black;
     background-color: beige;
 }
 
-
 .fact_blocks li {
     color: black;
     background-color: beige;
     list-style: none;
+}
+/* ---------------------*/
+
+inspiration {
+    display: flex;
+    height: 300px;
+    length: 300px;
+    padding: 100px 10%;
+    justify-content: space-evenly;
+    margin:25px; 
+    flex-direction: column;
+}
+
+.inspiration_quote li {
+    list-style: none;
+}
+
+.inspiration_quote h2 {
+   text-align: right;
 }
